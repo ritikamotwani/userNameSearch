@@ -15,3 +15,4 @@ function* loadUserData(action) {
 export function* watchLoadUserData() {
     yield takeLatest(t.LOAD_USER_DATA, loadUserData)
 }
+/*use axios to make API requests because it is more ergonomic and straightforward when working with REST APIs */
